@@ -1,0 +1,83 @@
+.row {
+  padding-bottom: 10px
+}
+
+.container {
+  padding-bottom: 15px;
+  margin-bottom: 10px
+}
+
+.text01 {
+  font-size: 25px;
+  padding-bottom: 0px;
+  margin-bottom: 0px
+}
+.img-thumbnail {
+  border-radius: 0%;
+  margin-bottom:20px
+}
+
+.dataText {
+  color:#c6c6c6;
+  font-size: 20px
+}
+
+.dataTitle {
+  color:#c6c6c6;
+  font-size:35px;
+  padding-bottom:10px
+}
+
+.dataSim {
+  font-size:20px;
+  margin-bottom: 5px
+}
+
+.skillbar {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.skillbar-bar:before {
+    background: #eee;
+    content: "";
+    height: 3px;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+
+.skillbar-bar {
+    height: 3px;
+    width: 0px;
+    background: #c6c6c6;
+    transition-property: width, background-color;
+}
+
+.skillbar-title {
+    color: #a5a5a5;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.skill-bar-percent {
+    float: right;
+    display: inline-block;
+    color: #323232;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.hover-item {
+  color: #c6c6c6;
+}
+
+.hover-item:hover {
+  color: #000000;
+  text-decoration: none;
+}
