@@ -1,0 +1,201 @@
+body {
+  font-family: Caviar Dreams;
+}
+
+#mySidenav a {
+    position: fixed;
+    left: -130px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 150px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+    left: 0;
+}
+
+#home {
+    top: 20px;
+    background-color: #808080;
+}
+
+#about {
+    top: 80px;
+    background-color: #a6a6a6;
+}
+
+#project {
+    top: 140px;
+    background-color: #cccccc;
+}
+
+#contact {
+    top: 200px;
+    background-color: #e6e6e6;
+}
+
+.img-center {
+    display: block;
+    margin: 0 auto;
+}
+
+p.brain-text {
+  padding-top: 0px;
+  text-align: left;
+}
+
+h2.text-max {
+  font-size:40px;
+  font-weight: bold;
+  opacity: 1;
+}
+
+h3.text-title {
+  font-size: 21px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+h4.text-grey {
+  color: #c6c6c6;
+  font-size: 16px;
+  opacity: 1;
+}
+
+h4.text-grey {
+  color: black;
+  font-size: 16px;
+  opacity: 1;
+}
+
+p.right-text {
+  text-align: right;
+  font-size: 12px;
+}
+
+p.text-university {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 2px;
+}
+
+p.text-date {
+  color: #c6c6c6;
+  font-size: 15px;
+  margin-bottom: 0px;
+}
+
+p.text-subject {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.hover-item {
+  color: #c6c6c6;
+}
+
+.hover-item:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.skillbar {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin-bottom: 45px;
+}
+
+.skillbar-bar:before {
+    background: #eee;
+    content: "";
+    height: 3px;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+
+.skillbar-bar {
+    height: 3px;
+    width: 0px;
+    background: #c6c6c6;
+    transition-property: width, background-color;
+}
+
+.skillbar-title {
+    color: #a5a5a5;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.skill-bar-percent {
+    float: right;
+    display: inline-block;
+    color: #323232;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#firstpage {
+  padding-top: 250px;
+}
+
+h2.front-text {
+  font-family: Caviar Dreams;
+  font-size: 100px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+}
+
+h4.front-sub-text {
+  font-family: Caviar Dreams;
+  font-size: 35px;
+  font-weight: bold;
+  color: white;
+  -webkit-text-stroke: 2px black;
+  text-align: center;
+  text-decoration: none;
+}
+
+a.clickbait {
+  color: white;
+  -webkit-text-stroke: 2px black;
+}
+
+a.clickbait:hover {
+  color: black;
+  text-decoration: none;
+}
+
+#projects {
+  padding-top: 340px;
+  padding-bottom: 340px;
+  background-image: url('../img/bg-projects.png');
+  background-size: cover;
+  background-repeat:no-repeat;
+}
+
+.img-magnifier-container {
+  position: relative;
+}
+
+.img-magnifier-glass {
+  position: absolute;
+  border: 2px solid #000;
+  border-radius: 50%;
+  cursor: none;
+  /*Set the size of the magnifier glass:*/
+  width: 100px;
+  height: 100px;
+}
