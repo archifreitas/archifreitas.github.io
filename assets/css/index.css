@@ -1,5 +1,13 @@
+@font-face {
+	font-family: "Caviar Dreams";
+	src: url('assets/fonts/CaviarDreams.ttf');
+}
+
 body {
-  font-family: Caviar Dreams;
+	font-family: "Caviar Dreams";
+}
+
+body {
 }
 
 .avatar {
@@ -21,7 +29,7 @@ body {
     font-size: 20px;
     color: white;
     border-radius: 0 5px 5px 0;
-    z-index:2000;
+    z-index:4;
 }
 
 #mySidenav a:hover {
@@ -167,7 +175,6 @@ p.text-memory {
 }
 
 h2.front-text {
-  font-family: Caviar Dreams;
   font-size: 100px;
   font-weight: bold;
   color: black;
@@ -175,7 +182,6 @@ h2.front-text {
 }
 
 h2.front-text-end {
-  font-family: Caviar Dreams;
   font-size: 60px;
   font-weight: bold;
   color: black;
@@ -183,7 +189,6 @@ h2.front-text-end {
 }
 
 h4.front-sub-text {
-  font-family: Caviar Dreams;
   font-size: 35px;
   font-weight: bold;
   color: white;
@@ -193,7 +198,6 @@ h4.front-sub-text {
 }
 
 h4.front-sub-text-black {
-  font-family: Caviar Dreams;
   font-size: 25px;
   font-weight: bold;
   color: black;
@@ -257,7 +261,7 @@ a.clickbait:hover {
 .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
+    z-index: 5; /* Sit on top */
     padding-top: 100px; /* Location of the box */
     left: 0;
     top: 0;
