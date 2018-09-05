@@ -11,6 +11,20 @@ body {
     margin-right: auto;
 }
 
+.icon {
+	display:block;
+	width:120px;
+	height:120px;
+	float:right;
+}
+
+.icon-left {
+	display:block;
+	width:120px;
+	height:120px;
+	float:left;
+}
+
 #mySidenav a {
     position: fixed;
     left: -130px;
@@ -242,7 +256,7 @@ a.clickbait:hover {
 
 /* Style the Image Used to Trigger the Modal */
 #myImg {
-		height:200px;
+		height:180px;
 		width:300px;
 		border: 1px solid #c6c6c6;
 		z-index:2;
