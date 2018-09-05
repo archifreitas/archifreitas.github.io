@@ -24,7 +24,7 @@ $(document).ready(function() {
       var my = e.pageY - magnify_offset.top;
 
       if (mx < $this.width() && my < $this.height() && mx > 0 && my > 0) {
-        $large.fadeIn(100);
+        $large.fadeIn(100); 
       } else {
         $large.fadeOut(100);
       }
