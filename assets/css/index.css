@@ -242,15 +242,15 @@ a.clickbait:hover {
 
 /* Style the Image Used to Trigger the Modal */
 #myImg {
+		height:200px;
+		width:300px;
+		border: 1px solid #c6c6c6;
+		z-index:2;
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
     margin-bottom:10px;
     margin:0px;
-		height:200px;
-		width:300px;
-		border: 1px solid #c6c6c6;
-		z-index:2;
 }
 
 #myImg:hover {opacity: 0.7;}
