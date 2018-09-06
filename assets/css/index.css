@@ -268,7 +268,7 @@ a.clickbait:hover {
 }
 
 .magnify {
-  width: 1100px;
+  width: 100%;
   position: relative;
   cursor: none
 }
@@ -290,14 +290,13 @@ a.clickbait:hover {
 /* Style the Image Used to Trigger the Modal */
 #myImg {
 		height:180px;
-		width:300px;
+		width:100%;
 		border: 1px solid #c6c6c6;
 		z-index:2;
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
     margin-bottom:10px;
-    margin:0px;
 }
 
 #myImg:hover {opacity: 0.7;}
@@ -376,9 +375,41 @@ a.clickbait:hover {
     }
 }
 
+@media screen and (max-width: 1300px) {
+	img {
+		 width: 100%;
+	 }
+}
+
+@media screen and (max-width:768px) and (min-width:480px) {
+	img {
+		 width: 100%;
+	 }
+
+ 	#myImg {
+		 height:250px;
+		 width:100%;
+		 border: 1px solid #c6c6c6;
+		 z-index:2;
+		 border-radius: 5px;
+		 cursor: pointer;
+		 transition: 0.3s;
+		 margin-bottom:10px;
+	 }
+
+	.side-show {
+		display: none;
+	}
+
+	.mobileShow {
+		display: inline;
+	}
+}
+
+}
 @media screen and (max-width: 480px) {
     img {
-         width: 350px;
+         width: 100%;
     }
 
 		p.brain-text {
