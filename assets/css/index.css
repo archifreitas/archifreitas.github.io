@@ -386,6 +386,17 @@ a.clickbait:hover {
 		 width: 100%;
 	 }
 
+	 p.brain-text {
+		 padding-top: 0px;
+		 text-align: justify;
+	 }
+
+	 p.text-subject {
+		 font-size: 16px;
+		 margin-bottom: 30px;
+		 text-align: justify;
+	 }
+	 
  	#myImg {
 		 height:250px;
 		 width:100%;
@@ -406,7 +417,6 @@ a.clickbait:hover {
 	}
 }
 
-}
 @media screen and (max-width: 480px) {
     img {
          width: 100%;
