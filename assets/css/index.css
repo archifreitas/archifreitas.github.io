@@ -85,6 +85,10 @@ a.top-text:hover {
 .side-show {
 }
 
+.mobileShow {
+	display: none;
+}
+
 .img-center {
     display: block;
     margin: 0 auto;
@@ -453,5 +457,9 @@ a.clickbait:hover {
 
 		.side-show {
 			display: none;
+		}
+
+		.mobileShow {
+			display: inline;
 		}
 }
