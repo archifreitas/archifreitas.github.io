@@ -7,9 +7,8 @@ body {
     border-radius: 25px;
     border: 1px solid #c6c6c6;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
 		background-color: rgba(0, 0, 0, .05);
+		margin:auto;
 }
 
 .icon {
@@ -34,6 +33,16 @@ body {
 
 .icon-left:hover {
     transform: scale(1.25);
+}
+
+a.top-text {
+	color: #c6c6c6;
+}
+
+a.top-text:hover {
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
 }
 
 #mySidenav a {
@@ -233,11 +242,12 @@ a.clickbait:hover {
 }
 
 #projects {
-  padding-top: 340px;
-  padding-bottom: 340px;
+  padding-top: 45px;
+  padding-bottom: 45px;
   background-image: url('../img/bg-projects.png');
   background-size: cover;
   background-repeat:no-repeat;
+	background-position: center;
 }
 
 * {
