@@ -82,6 +82,9 @@ a.top-text:hover {
     background-color: #e6e6e6;
 }
 
+.side-show {
+}
+
 .img-center {
     display: block;
     margin: 0 auto;
@@ -448,4 +451,7 @@ a.clickbait:hover {
 		  text-decoration: none;
 		}
 
+		.side-show {
+			display: none;
+		}
 }
