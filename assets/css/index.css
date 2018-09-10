@@ -35,6 +35,14 @@ body {
     transform: scale(1.25);
 }
 
+.menu-icon {
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 10px;
+	padding-bottom:5px
+}
+
 a.top-text {
 	color: #c6c6c6;
 }
@@ -396,7 +404,7 @@ a.clickbait:hover {
 		 margin-bottom: 30px;
 		 text-align: justify;
 	 }
-	 
+
  	#myImg {
 		 height:250px;
 		 width:100%;
@@ -414,6 +422,14 @@ a.clickbait:hover {
 
 	.mobileShow {
 		display: inline;
+	}
+
+	.menu-icon {
+		display:block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 2%;
+		padding-bottom:5px
 	}
 }
 
@@ -502,5 +518,13 @@ a.clickbait:hover {
 
 		.mobileShow {
 			display: inline;
+		}
+
+		.menu-icon {
+			display:block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 4%;
+			padding-bottom:5px
 		}
 }
