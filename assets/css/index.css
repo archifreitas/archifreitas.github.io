@@ -11,6 +11,10 @@ body {
 		margin:auto;
 }
 
+.brain-pad {
+	padding-top:70px;
+}
+
 .icon {
 	display:block;
 	width:120px;
@@ -447,12 +451,12 @@ a.clickbait:hover {
 		}
 
 		h2.project-title {
-			font-size:4vw;
+			font-size:4.5vw;
 			font-weight:bold;
 		}
 
 		h3.project-subtitle {
-			font-size:3.5vw;
+			font-size:4vw;
 		}
 
 		img.icon {
@@ -500,6 +504,8 @@ a.clickbait:hover {
 
 		.bg-grey {
 			background-color: #f2f2f2;
+			padding-top:10px;
+			padding-bottom:-10px;
 		}
 
 		h2.front-text {
@@ -532,5 +538,9 @@ a.clickbait:hover {
 			margin-right: auto;
 			width: 4%;
 			padding-bottom:5px
+		}
+
+		.brain-pad {
+			padding-top:20px;
 		}
 }
