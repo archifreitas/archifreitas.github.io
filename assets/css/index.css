@@ -53,21 +53,9 @@ a.top-text:hover {
 	text-decoration: none;
 }
 
-#mySidenav a {
-    position: fixed;
-    left: -130px;
-    transition: 0.3s;
-    padding: 15px;
-    width: 150px;
-    text-decoration: none;
-    font-size: 20px;
-    color: white;
-    border-radius: 0 5px 5px 0;
-    z-index:4;
-}
-
-#mySidenav a:hover {
-    left: 0;
+.navbar {
+	background-color: white;
+	border-bottom: 1px solid #c6c6c6;
 }
 
 #home {
