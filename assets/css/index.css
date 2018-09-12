@@ -2,6 +2,9 @@ body {
 	font-family: "Quicksand";
 }
 
+h2 {
+	font-family: 'Noto Sans JP', sans-serif;
+}
 .avatar {
     vertical-align: middle;
     border-radius: 25px;
@@ -223,7 +226,7 @@ h2.front-text {
   text-align: center;
 }
 
-h2.front-text-end {
+h3.front-text-end {
   font-size: 4.15vw;
   font-weight: bold;
   color: black;
