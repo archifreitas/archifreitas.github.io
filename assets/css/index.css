@@ -5,6 +5,7 @@ body {
 h2 {
 	font-family: 'Noto Sans JP', sans-serif;
 }
+
 .avatar {
     vertical-align: middle;
     border-radius: 25px;
@@ -63,6 +64,7 @@ a.top-text:hover {
 .navbar {
 	background-color: white;
 	border-bottom: 1px solid #c6c6c6;
+	z-index: 3;
 }
 
 #home {
